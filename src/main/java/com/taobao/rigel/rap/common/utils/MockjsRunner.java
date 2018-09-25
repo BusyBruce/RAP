@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 public class MockjsRunner {
 
     private static String MOCKJS_PATH = SystemConstant.ROOT +
-            FileUtils.concatFilePath(new String[]{"stat", "js", "util", "mock-min.js"});
+            FileUtils.concatFilePath(new String[]{File.separator+"stat", "js", "util", "mock-min.js"})
     private static String jsCode;
     private Context ct;
     private Scriptable scope;
