@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Scriptable;
 
+import java.io.File;
+
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -13,7 +15,7 @@ import java.nio.file.Paths;
 public class MockjsRunner {
 
     private static String MOCKJS_PATH = SystemConstant.ROOT +
-            FileUtils.concatFilePath(new String[]{File.separator+"stat", "js", "util", "mock-min.js"});
+            FileUtils.concatFilePath(new String[]{"stat", "js", "util", "mock-min.js"});
     private static String jsCode;
     private Context ct;
     private Scriptable scope;

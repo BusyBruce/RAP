@@ -3,6 +3,7 @@ package com.taobao.rigel.rap.common.utils;
 import com.taobao.rigel.rap.common.config.SystemConstant;
 
 import java.io.*;
+import java.io.File;
 import java.util.Arrays;
 
 /**
