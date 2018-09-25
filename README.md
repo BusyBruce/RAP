@@ -1,4 +1,4 @@
-# RAP ![](https://api.travis-ci.org/thx/RAP.svg)
+# RAP ![](https://travis-ci.org/BusyBruce/RAP.svg)
 
 ### What is RAP?
 
