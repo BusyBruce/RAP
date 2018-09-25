@@ -3,3 +3,4 @@ branches:
   only:
     - master
     - release
+    - master_internet
